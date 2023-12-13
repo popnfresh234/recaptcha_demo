@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>reCAPTCHA demo: Simple page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form name="recaptcha" action="?" method="POST">
+      <div
+        class="g-recaptcha"
+        data-sitekey="6Ld_ni8pAAAAAAGPd4Ex_rDSO5Y_fVj6I8iFpQmV"
+        data-error-callback="errorCallback"
+        data-callback="callback"
+      ></div>
+      <br />
+      <input class="button-submit" type="submit" value="Submit" #submit />
+    </form>
+    <button class="my-button" onClick="submitForm()">My Button</button>
+  </body>
+</html>
+
+<!-- Site Key -->
+<!-- 6Ld_ni8pAAAAAAGPd4Ex_rDSO5Y_fVj6I8iFpQmV
+ -->
+
+<!-- Secret Key -->
+<!-- 6Ld8ni8pAAAAAJzqIHHCU_osTlV78cmszU58jkxW -->

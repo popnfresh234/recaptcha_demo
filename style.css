@@ -1,0 +1,10 @@
+.button-submit {
+  display: none;
+}
+
+.my-button {
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  border-radius: 1rem;
+}
